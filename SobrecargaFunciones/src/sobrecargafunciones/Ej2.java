@@ -8,14 +8,14 @@ La primera de las funciones recibirá dos argumentos de tipo entero y devolverá
 La segunda de las funciones recibirá tres argumentos de tipo entero y devolverá la media de los tres. El tipo a devolver debe ser double.
 */
 	
-	static int media (int a, int b) {
+	public static int media (int a, int b) {
 		
 		int media = (a+b)/2;
 		
 		return media;
 	}
 	
-	static double media (int a, int b, int c) {
+	public static double media (int a, int b, int c) {
 		
 		double media = (a+b+c)/3;
 		

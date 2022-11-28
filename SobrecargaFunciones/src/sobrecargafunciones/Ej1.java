@@ -8,12 +8,12 @@ La primera de las funciones recibirá dos argumentos de tipo entero y devolverá
 La segunda de las funciones recibirá dos argumentos de tipo double y devolverá la suma de ambos. El tipo a devolver debe ser también double.
 */
 	
-	static int suma (int a, int b) {
+	public static int suma (int a, int b) {
 		
 		return a+b;
 	}
 	
-	static double suma (double a, double b) {
+	public static double suma (double a, double b) {
 		
 		return a+b;
 	}

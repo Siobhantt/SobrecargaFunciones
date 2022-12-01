@@ -42,7 +42,8 @@ La segunda de las funciones recibirá dos argumentos de tipo double y devolverá
 		
 		System.out.println(restoD = suma(nd1, nd2));
 		
-		
+		//cerramos el scanner
+		lee.close();
 		
 
 	}

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ej5 {
 	
-	public static int numerosAleatorios(int n) {
+	public static void numerosAleatorios(int n) {
 		
 		int numeroX=0;
 		
@@ -13,10 +13,10 @@ public class Ej5 {
 			numeroX =(int) (Math.random()*(100-1)+1);
 			System.out.println(numeroX); 
 		}
-	return numeroX;
+	
 	}
 	
-	public static int numerosAleatorios(int n1, int n2) {
+	public static void numerosAleatorios(int n1, int n2) {
 		
 		int numeroX =0;
 		for(int i = 1; i <= n1; i++ ) {
@@ -26,10 +26,9 @@ public class Ej5 {
 			System.out.println(numeroX);
 		}
 		
-		return numeroX;
 	}
 	
-	public static int numerosAleatorios(int n1, int n2, int n3) {
+	public static void numerosAleatorios(int n1, int n2, int n3) {
 		
 		int numeroX=0;
 		
@@ -39,7 +38,7 @@ public class Ej5 {
 			
 			System.out.println(numeroX);
 		}
-		return numeroX;
+		
 	}
 	
 	public static void main(String[] args) {
@@ -85,6 +84,8 @@ public class Ej5 {
 		
 		numerosAleatorios(cantidad, valorMinimo, valorMax);
 		
+		//cerramos Scanner
+		lee.close();
 		
 	}
 
